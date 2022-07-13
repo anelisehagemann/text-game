@@ -65,21 +65,22 @@ const textNodes = [
         nextText: 2
       },
       {
-        text: 'Ignore',
+        text: 'Zoom in',
         nextText: 2
+
       }
     ]
   },
   {
     id: 2,
-    text: 'Zoom in',
+    text: 'You really like the picture but you do not want to deal with it right now',
     options: [
       {
-        text: 'Option one',
+        text: 'Take a nap',
         nextText: 3
       },
       {
-        text: 'Option two',
+        text: 'This does not seem right, I will look at it again',
         requiredState: (currentState) => currentState.stateOne,
         setState: { stateOne: false, stateTwo: true },
         nextText: 3
