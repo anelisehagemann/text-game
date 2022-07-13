@@ -57,22 +57,22 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'First text',
+    text: 'You are working with the James Webb telescope and you see something out of the ordinary on one of the digital renders',
     options: [
       {
-        text: 'Option one',
+        text: 'Ignore',
         setState: { stateOne: true },
         nextText: 2
       },
       {
-        text: 'Option two',
+        text: 'Ignore',
         nextText: 2
       }
     ]
   },
   {
     id: 2,
-    text: 'Second text.',
+    text: 'Zoom in',
     options: [
       {
         text: 'Option one',
@@ -96,4 +96,3 @@ const textNodes = [
 //----- This is the code block to alter -----
 
 startGame()
-
