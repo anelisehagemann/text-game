@@ -1,6 +1,6 @@
 //textElement and optionButtonsElement are the links between the buttons and text in the HTML document and this document.
-const textElement = document.getElementById('placeholder-replace-this') // Add the ID of the element you want to change
-const optionButtonsElement = document.getElementById('placeholder-replace-this') // Add the ID of the element you want to change
+const textElement = document.getElementById('text') // Add the ID of the element you want to change
+const optionButtonsElement = document.getElementById('option-buttons') // Add the ID of the element you want to change
 
 
 
