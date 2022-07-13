@@ -57,7 +57,7 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You are working with the James Webb telescope and you see something out of the ordinary on one of the digital renders',
+    text: 'You are a new astronomer at NASA. Today it is your turn to work on the James Webb Space telescope. The largest and most powerfull space-based observatory ever built. You see something out of the ordinary in one of the pictures',
     options: [
       {
         text: 'Ignore',
@@ -89,8 +89,18 @@ const textNodes = [
   },
   {
     id: 3,
-    text: 'The End',
+    text: 'Perhaps it is better to take another look',
     options: [
+      {
+        text: 'Ignore',
+        setState: { stateOne: true },
+        nextText: 2
+      },
+      {
+        text: 'Zoom in',
+        nextText: 2
+
+      }
     ]
   },
 ]
