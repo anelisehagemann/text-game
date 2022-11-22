@@ -57,7 +57,37 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You are a new astronomer at NASA. Today it is your turn to work on the James Webb Space telescope. The largest and most powerfull space-based observatory ever built. You see something out of the ordinary in one of the pictures',
+    text: 'You see a flower, which color is it?',
+    options: [
+      {
+        text: 'red',
+        setState: { stateOne: true },
+        nextText: 2
+      },
+      {
+        text: 'pink',
+        setState: { stateOne: true },
+        nextText: 4
+      }
+    ]
+  },
+  {
+    id: 2,
+    text: 'red',
+    options: [
+      {
+        text: 'Thin petals',
+        nextText: 3
+      },
+      {
+        text: 'Thicker petals',
+        nextText: 5
+      }
+    ]
+  },
+  {
+    id: 3,
+    text: 'Perhaps it is better to take another look',
     options: [
       {
         text: 'Ignore',
@@ -72,23 +102,7 @@ const textNodes = [
     ]
   },
   {
-    id: 2,
-    text: 'You really like the picture but you do not want to deal with it right now',
-    options: [
-      {
-        text: 'Take a nap',
-        nextText: 3
-      },
-      {
-        text: 'This does not seem right, I will look at it again',
-        requiredState: (currentState) => currentState.stateOne,
-        setState: { stateOne: false, stateTwo: true },
-        nextText: 3
-      },
-    ]
-  },
-  {
-    id: 3,
+    id: 5,
     text: 'Perhaps it is better to take another look',
     options: [
       {
