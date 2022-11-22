@@ -68,6 +68,11 @@ const textNodes = [
         text: 'pink',
         setState: { stateOne: true },
         nextText: 4
+      },
+      {
+        text: 'home',
+        setState: { stateOne: true },
+        nextText: 1
       }
     ]
   },
@@ -99,6 +104,29 @@ const textNodes = [
         nextText: 2
 
       }
+      
+    ]
+  },
+  {
+    id: 4,
+    text: 'choosed pinkk',
+    options: [
+      {
+        text: 'have a bumblebee',
+        setState: { stateOne: true },
+        nextText: 2
+      },
+      {
+        text: 'Zoom in',
+        nextText: 2
+
+      },
+      {
+        text: 'home',
+        setState: { stateOne: true },
+        nextText: 1
+      }
+      
     ]
   },
   {
