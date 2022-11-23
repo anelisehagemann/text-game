@@ -57,50 +57,78 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'Pick your character',
+    text: 'Pick your character (no impact)',
     options: [
       {
-        text: 'Witch',
+        text: 'Witch (female)',
         setState: { stateOne: true },
         nextText: 2
       },
       {
-        text: 'Gnome',
+        text: 'Gnome (male)',
         setState: { stateOne: true },
-        nextText: 4
+        nextText: 3
       },
       {
-        text: 'Elf',
+        text: 'Elf (non-binary)',
         setState: { stateOne: true },
-        nextText: 1
+        nextText: 4
       }
     ]
   },
   {
     id: 2,
-    text: 'Hello, how do you want to start this adventure?',
+    text: 'Hello, Which Maria, where would you like to go first?',
     options: [
       {
         text: 'Go to tavern',
-        nextText: 3
+        nextText: 5
       },
       {
         text: 'Go to the woods',
-        nextText: 4
+        nextText: 6
       }
     ]
   },
   {
     id: 3,
-    text: 'I will pay you to kill a monster',
+    text: 'Hello, Gnome Gustav, where would you like to go first?',
     options: [
       {
-        text: 'accept',
-        setState: { stateOne: true },
-        nextText: 2
+        text: 'Go to tavern',
+        nextText: 5
       },
       {
-        text: 'don t aceept',
+        text: 'Go to the woods',
+        nextText: 6
+      }
+    ]
+  },
+  {
+    id: 4,
+    text: 'Hello, Elf Leaf, where would you like to go first?',
+    options: [
+      {
+        text: 'Go to tavern',
+        nextText: 5
+      },
+      {
+        text: 'Go to the woods',
+        nextText: 6
+      }
+    ]
+  },
+  {
+    id: 5,
+    text: 'You walk to the nearest tavern and see a large job posting board on a wall. You look closer and see a notice saying that a dragon has been terrorizing the local fishermen at Lake Dragonlair',
+    options: [
+      {
+        text: 'Take the job',
+        setState: { stateOne: true },
+        nextText: 6
+      },
+      {
+        text: 'Ignore the job',
         nextText: 2
 
       }
@@ -108,24 +136,46 @@ const textNodes = [
     ]
   },
   {
-    id: 4,
-    text: 'walk unsuspectedly, get into a hole',
+    id: 6,
+    text: 'You accept the callenge and make your way to Lake Dragonlair. You reach the shore and the infamous dragon emerges from the water with a big roar. How do you react?',
     options: [
       {
-        text: 'you die',
+        text: 'Pull out your sword',
+        setState: { stateOne: true },
+        nextText: 7
+      },
+      {
+        text: 'Raise your fists and scream',
+        setState: { stateOne: true },
+        nextText: 8
+      },
+      
+      
+    ]
+  },
+  {
+    id: 7,
+    text: 'Kill the dragon',
+    options: [
+      {
+        text: 'Pull out your sword',
         setState: { stateOne: true },
         nextText: 2
-      },
+      }
+      
+      
+    ]
+  },
+  {
+    id: 8,
+    text: 'The dragon eats you',
+    options: [
       {
-        text: 'Zoom in',
-        nextText: 2
-
-      },
-      {
-        text: 'home',
+        text: 'You die',
         setState: { stateOne: true },
         nextText: 1
       }
+      
       
     ]
   },
