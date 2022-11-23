@@ -86,7 +86,7 @@ const textNodes = [
       },
       {
         text: 'Go to the woods',
-        nextText: 6
+        nextText: 10
       }
     ]
   },
@@ -100,7 +100,7 @@ const textNodes = [
       },
       {
         text: 'Go to the woods',
-        nextText: 6
+        nextText: 10
       }
     ]
   },
@@ -114,7 +114,7 @@ const textNodes = [
       },
       {
         text: 'Go to the woods',
-        nextText: 6
+        nextText: 10
       }
     ]
   },
