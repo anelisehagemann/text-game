@@ -129,7 +129,7 @@ const textNodes = [
       },
       {
         text: 'Ignore the job',
-        nextText: 2
+        nextText: 10
 
       }
       
@@ -149,6 +149,11 @@ const textNodes = [
         setState: { stateOne: true },
         nextText: 8
       },
+      {
+        text: 'Do a dragon mating dance (kiss kiss)',
+        setState: { stateOne: true },
+        nextText: 9
+      }
       
       
     ]
@@ -168,7 +173,7 @@ const textNodes = [
   },
   {
     id: 8,
-    text: 'The dragon eats you',
+    text: 'The dragon recognizes your weakness and eats you in one bite. You died',
     options: [
       {
         text: 'You die',
@@ -180,17 +185,25 @@ const textNodes = [
     ]
   },
   {
-    id: 5,
-    text: 'Perhaps it is better to take another look',
+    id: 9,
+    text: 'You dance around wildly to seduce the dragon. It is very effective. The dragon gives you a big kiss, picks you up and you fly away on its back',
     options: [
       {
-        text: 'Ignore',
+        text: 'YOU WIIN YEEEEEEY',
         setState: { stateOne: true },
-        nextText: 2
-      },
+        nextText: 1
+
+      }
+    ]
+  },
+  {
+    id: 10,
+    text: 'You leave the tavern and go into the woods instead',
+    options: [
       {
-        text: 'Zoom in',
-        nextText: 2
+        text: 'You walk into the thick of the woods. You hear the leaves crunching underneath your feet, when suddenly there is no more ground beneath you and fall into a deep hole. YOU DIED.',
+        setState: { stateOne: true },
+        nextText: 1
 
       }
     ]
