@@ -13,15 +13,5 @@
   cursor: pointer;
 }
 
-.button2 {background-color: #ece6d6; /* Sand */
-.button3 {background-color: #f44336;} /* Sand */ 
-</style>
-</head>
-<body>
-
-<--<h2>Button Colors</h2>-->
-
-
-<--<button class="button">text</button>-->
-<--<button class="button button2">text</button>-->
-<--<button class="button button3">text</button>-->
+.button2 {background-color: #ece6d6} /* Sand */
+.button3 {background-color: #f44336} /* Sand */ 
