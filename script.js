@@ -78,7 +78,7 @@ const textNodes = [
   },
   {
     id: 2,
-    text: 'Hello, Which Maria, where would you like to go first?',
+    text: 'Hello, Whitch Maria, where would you like to go first?',
     options: [
       {
         text: 'Go to tavern',
@@ -163,9 +163,9 @@ const textNodes = [
     text: 'Kill the dragon',
     options: [
       {
-        text: 'Pull out your sword',
+        text: 'You pull your sword from your side and stab the dragon so fast it dies instantly. You return to the tavern with a dragon scale and present it to the tavern owner. He takes the scale, congratulates you on a job well done and gives you four dublons',
         setState: { stateOne: true },
-        nextText: 2
+        nextText: 1
       }
       
       
