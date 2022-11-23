@@ -1,5 +1,5 @@
 
-.button {
+.option-buttons {
   background-color: #ece6d6; /* Sand */
   border-radius: 6px;
   color: black;
@@ -12,6 +12,3 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
-.button2 {background-color: #ece6d6} /* Sand */
-.button3 {background-color: #f44336} /* Sand */ 
