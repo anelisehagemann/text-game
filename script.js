@@ -57,20 +57,20 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You see a flower, which color is it?',
+    text: 'Pick your character',
     options: [
       {
-        text: 'red',
+        text: 'Witch',
         setState: { stateOne: true },
         nextText: 2
       },
       {
-        text: 'pink',
+        text: 'Gnome',
         setState: { stateOne: true },
         nextText: 4
       },
       {
-        text: 'home',
+        text: 'Elf',
         setState: { stateOne: true },
         nextText: 1
       }
@@ -78,29 +78,29 @@ const textNodes = [
   },
   {
     id: 2,
-    text: 'red',
+    text: 'Hello, how do you want to start this adventure?',
     options: [
       {
-        text: 'Thin petals',
+        text: 'Go to tavern',
         nextText: 3
       },
       {
-        text: 'Thicker petals',
-        nextText: 5
+        text: 'Go to the woods',
+        nextText: 4
       }
     ]
   },
   {
     id: 3,
-    text: 'Perhaps it is better to take another look',
+    text: 'I will pay you to kill a monster',
     options: [
       {
-        text: 'Ignore',
+        text: 'accept',
         setState: { stateOne: true },
         nextText: 2
       },
       {
-        text: 'Zoom in',
+        text: 'don t aceept',
         nextText: 2
 
       }
@@ -109,10 +109,10 @@ const textNodes = [
   },
   {
     id: 4,
-    text: 'choosed pinkk',
+    text: 'walk unsuspectedly, get into a hole',
     options: [
       {
-        text: 'have a bumblebee',
+        text: 'you die',
         setState: { stateOne: true },
         nextText: 2
       },
