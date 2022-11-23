@@ -160,10 +160,10 @@ const textNodes = [
   },
   {
     id: 7,
-    text: 'Kill the dragon',
+    text: 'You pull your sword from your side and stab the dragon so fast it dies instantly. You return to the tavern with a dragon scale and present it to the tavern owner. He takes the scale, congratulates you on a job well done and gives you four dublons',
     options: [
       {
-        text: 'You pull your sword from your side and stab the dragon so fast it dies instantly. You return to the tavern with a dragon scale and present it to the tavern owner. He takes the scale, congratulates you on a job well done and gives you four dublons',
+        text: 'Kill the dragon',
         setState: { stateOne: true },
         nextText: 1
       }
