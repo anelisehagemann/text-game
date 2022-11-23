@@ -1,0 +1,27 @@
+
+.button {
+  background-color: #ece6d6; /* Sand */
+  border-radius: 6px;
+  color: black;
+  padding: 6px 14px;
+  font-family: fantasy;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #ece6d6; /* Sand */
+.button3 {background-color: #f44336;} /* Sand */ 
+</style>
+</head>
+<body>
+
+<--<h2>Button Colors</h2>-->
+
+
+<--<button class="button">text</button>-->
+<--<button class="button button2">text</button>-->
+<--<button class="button button3">text</button>-->
